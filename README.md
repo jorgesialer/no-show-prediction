@@ -46,7 +46,7 @@ El análisis de importancia de variables reveló que el **Tiempo de Espera (`day
 ## Dashboard Operativo
 Se diseñó un tablero de control en Power BI para el equipo de Call Center, permitiendo la gestión priorizada de pacientes según su probabilidad de riesgo.
 
-![Vista Previa del Dashboard](imag3/image.png)
+![Vista Previa del Dashboard](image/image.png)
 
 **Hallazgos Clave Visualizados:**
 1.  Identificación de zonas geográficas ("Barrios") con mayor incidencia de ausentismo para focalizar campañas de transporte o accesibilidad.
