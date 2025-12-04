@@ -14,7 +14,7 @@ El proyecto simula una arquitectura de Data Lake moderna (Medallion Architecture
 
 ## Stack Tecnológico
 
-* **Lenguaje:** Python 3.9+
+* **Lenguaje:** Python
 * **Ingeniería de Datos:** Pandas (lógica optimizada para simulación de PySpark), NumPy.
 * **Machine Learning:** Scikit-Learn (Random Forest Classifier, optimización de hiperparámetros).
 * **Estrategia de Modelado:** Manejo de desbalance de clases mediante penalización de costos (`class_weight='balanced'`).
@@ -29,10 +29,7 @@ La organización del proyecto sigue estándares de ingeniería de software para 
 
 * `data/`: Contiene los datasets en sus diferentes estados (raw, processed, final).
 * `notebooks/`: Scripts de Jupyter para el desarrollo del ETL, análisis exploratorio (EDA) y entrenamiento del modelo.
-* `sql/`: Consultas SQL para análisis de segmentos críticos.
-* `dashboard/`: Archivos fuente de Power BI (`.pbix`).
 * `img/`: Recursos gráficos y capturas de pantalla del proyecto.
-* `src/`: Código fuente modularizado (si aplica).
 
 ## Estrategia de Modelado y Resultados
 
