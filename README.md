@@ -41,5 +41,23 @@ Se implementó un modelo **Random Forest** optimizado con una estrategia de pena
 * **Balanced Accuracy:** 67%. Rendimiento robusto muy superior al azar.
 
 ### Insights de Negocio
-El análisis de importancia de variables reveló que el **Tiempo de Espera (`days_wait`)** es el predictor determinante (66% de# no-show-prediction
-End-to-end ML pipeline to predict medical appointment no-shows using PySpark and AWS concepts.
+El análisis de importancia de variables reveló que el **Tiempo de Espera (`days_wait`)** es el predictor determinante (66% de importancia). Las citas programadas para el mismo día tienen una tasa de cumplimiento cercana al 96%, mientras que el riesgo de ausentismo aumenta drásticamente tras las primeras 24 horas de espera.
+
+## Dashboard Operativo
+Se diseñó un tablero de control en Power BI para el equipo de Call Center, permitiendo la gestión priorizada de pacientes según su probabilidad de riesgo.
+
+![Vista Previa del Dashboard](imag3/image.png)
+
+**Hallazgos Clave Visualizados:**
+1.  Identificación de zonas geográficas ("Barrios") con mayor incidencia de ausentismo para focalizar campañas de transporte o accesibilidad.
+2.  Segmentación por riesgo temporal que valida la correlación entre días de espera y probabilidad de falta.
+
+## Autor
+**Jorge Sialer**
+Estudiante de Ingeniería Mecatrónica (10mo Ciclo) - Pontificia Universidad Católica del Perú (PUCP)
+* [Perfil de LinkedIn](www.linkedin.com/in/jorge-eduardo-sialer-kanamori-1806b2219)
+* [GitHub](https://github.com/jorgesialer)
+
+---
+*Este proyecto fue desarrollado como iniciativa personal para demostrar competencias avanzadas en Data Engineering y Data Science aplicadas al sector salud.*
+````
