@@ -57,7 +57,3 @@ Se diseñó un tablero de control en Power BI para el equipo de Call Center, per
 Estudiante de Ingeniería Mecatrónica (10mo Ciclo) - Pontificia Universidad Católica del Perú (PUCP)
 * [Perfil de LinkedIn](www.linkedin.com/in/jorge-eduardo-sialer-kanamori-1806b2219)
 * [GitHub](https://github.com/jorgesialer)
-
----
-*Este proyecto fue desarrollado como iniciativa personal para demostrar competencias avanzadas en Data Engineering y Data Science aplicadas al sector salud.*
-````
