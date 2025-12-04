@@ -24,9 +24,6 @@ El proyecto simula una arquitectura de Data Lake moderna (Medallion Architecture
 
 ## Estructura del Repositorio
 La organización del proyecto sigue estándares de ingeniería de software para facilitar la reproducibilidad:
-
-![Estructura del Proyecto](img/project_structure.png)
-
 * `data/`: Contiene los datasets en sus diferentes estados (raw, processed, final).
 * `notebooks/`: Scripts de Jupyter para el desarrollo del ETL, análisis exploratorio (EDA) y entrenamiento del modelo.
 * `img/`: Recursos gráficos y capturas de pantalla del proyecto.
